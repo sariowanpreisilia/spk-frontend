@@ -18,7 +18,21 @@ function Hasil() {
   "spk-kegiatan-alam-production.up.railway.app";
 
   const [hasil,setHasil] =
-  useState([]); 
+  useState([]);
+
+  const [kriteria,
+  setKriteria] =
+  useState([]);
+
+  const [detail,
+  setDetail] =
+  useState({
+
+    matriks:{},
+
+    normalisasi:{}
+
+  });
 
   useEffect(()=>{
 

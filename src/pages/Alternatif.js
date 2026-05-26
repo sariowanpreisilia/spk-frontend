@@ -8,6 +8,8 @@ function Alternatif() {
   const [nama, setNama] = useState("");
   const [deskripsi, setDeskripsi] = useState("");
   const [gambar, setGambar] = useState(null);
+    const [preview, setPreview] = useState(null);
+
   const [editId, setEditId] = useState(null);
   const [loading, setLoading] = useState(false);
 
