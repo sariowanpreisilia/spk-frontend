@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Alternatif() {
-  const API = "http://localhost:5000";
+  const API = "spk-kegiatan-alam-production.up.railway.app";
 
   const [data, setData] = useState([]);
   const [nama, setNama] = useState("");

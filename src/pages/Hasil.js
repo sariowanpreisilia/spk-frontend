@@ -15,7 +15,7 @@ import {
 function Hasil() {
 
   const API =
-  "http://localhost:5000";
+  "spk-kegiatan-alam-production.up.railway.app";
 
   const [hasil,setHasil] =
   useState([]);

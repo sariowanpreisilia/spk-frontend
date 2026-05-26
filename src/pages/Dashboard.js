@@ -4,7 +4,7 @@ import axios from "axios";
 function Dashboard() {
 
   const API =
-  "http://localhost:5000";
+  "spk-kegiatan-alam-production.up.railway.app";
 
   const [
     totalAlternatif,
