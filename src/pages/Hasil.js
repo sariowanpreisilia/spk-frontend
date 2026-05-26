@@ -15,7 +15,7 @@ import {
 function Hasil() {
 
   const API =
-  "spk-kegiatan-alam-production.up.railway.app";
+  "https://spk-kegiatan-alam-production.up.railway.app";
 
   const [hasil,setHasil] =
   useState([]);

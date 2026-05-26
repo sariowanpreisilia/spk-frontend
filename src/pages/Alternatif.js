@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Alternatif() {
-  const API = "spk-kegiatan-alam-production.up.railway.app";
+  const API = "https://spk-kegiatan-alam-production.up.railway.app";
 
   const [data, setData] = useState([]);
   const [nama, setNama] = useState("");
   const [deskripsi, setDeskripsi] = useState("");
   const [gambar, setGambar] = useState(null);
-    const [preview, setPreview] = useState(null);
+  const [preview, setPreview] = useState(null);
 
   const [editId, setEditId] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -168,7 +168,7 @@ editId
 
 {
 
-data.map(item=>(
+data?.map(item=>(
 
 <div
 key={item.id}

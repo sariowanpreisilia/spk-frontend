@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 function Kriteria() {
-  const API = "spk-kegiatan-alam-production.up.railway.app";
+  const API = "https://spk-kegiatan-alam-production.up.railway.app";
 
   const [data, setData] = useState([]);
   const [nama, setNama] = useState("");
@@ -193,7 +193,7 @@ Cost
 
 {
 
-data.map((d)=>(
+data?.map((d)=>(
 
 <div
 key={d.id}
