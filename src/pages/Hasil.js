@@ -20,6 +20,16 @@ function Hasil() {
   const [hasil,setHasil] =
   useState([]);
 
+  const [hasil,setHasil] =
+  useState([]);
+
+  const [alternatif,setAlternatif] =
+  useState([]);
+
+  const [kriteria,
+  setKriteria] =
+  useState([]);
+
   const [kriteria,
   setKriteria] =
   useState([]);
